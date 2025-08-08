@@ -10,4 +10,5 @@ for item in original_list:
     if item not in list_without_duplicates:
      list_without_duplicates.append(item)
 print("List without duplicates is:",list_without_duplicates)
+
     
