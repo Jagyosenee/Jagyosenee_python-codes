@@ -12,3 +12,4 @@ for item in original_list:
 print("List without duplicates is:",list_without_duplicates)
 
     
+
