@@ -3,6 +3,5 @@ first_number=0
 second_number=1
 while first_number<100:
     print(first_number,end=" ")
-    copy = first_number
-    first_number=second_number
-    second_number = second_number+copy
+    first_number,second_number=second_number, second_number+first_number
+  
